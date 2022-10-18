@@ -21,5 +21,7 @@ public class exercio2 {
         System.out.printf("PERIMETRO = %.4f%n", perimetro);
         System.out.printf("DIAGONAL = %.4f%n", diagonal);
 
+        sc.close();
+
     }
 }
