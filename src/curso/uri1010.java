@@ -9,17 +9,17 @@ public class uri1010 {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        int a, b, c, d, h;
+        int b, d;
 
         double e, f, g;
         
-        a = sc.nextInt();
+        // a = sc.nextInt();
 
         b = sc.nextInt();
 
         e = sc.nextDouble();
 
-        c = sc.nextInt();
+        // c = sc.nextInt();
 
         d = sc.nextInt();
 
@@ -27,7 +27,7 @@ public class uri1010 {
 
         g = b * e + d * f;
 
-        h = a + c;
+        // h = a + c;
 
         System.out.printf("VALOR A PAGAR: R$ %.2f%n", g);
 
