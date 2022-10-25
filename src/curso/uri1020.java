@@ -21,7 +21,7 @@ public class uri1020 {
 
         v = 30;
         q = r / v;
-        System.out.println(q + " mes(s)");
+        System.out.println(q + " mes(es)");
         r = r % v;
 
         System.out.println(r + " dia(s)");
