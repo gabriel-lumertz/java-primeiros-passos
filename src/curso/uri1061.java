@@ -3,7 +3,6 @@ package curso;
 import java.util.Locale;
 import java.util.Scanner;
 
-//nao esqueca de mudar o nome da classe para Main
 public class uri1061 {
 
 	public static void main(String[] args) {
