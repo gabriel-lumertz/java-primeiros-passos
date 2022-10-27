@@ -42,8 +42,8 @@ public class uri1061 {
 		System.out.println(W + " dia(s)");
 		System.out.println(X + " hora(s)");
 		System.out.println(Y + " minuto(s)");
-		System.out.println(Z + " segundo(s)");		
-		
+		System.out.println(Z + " segundo(s)");
+		System.out.println(s);
 		sc.close();
 	}
 }
