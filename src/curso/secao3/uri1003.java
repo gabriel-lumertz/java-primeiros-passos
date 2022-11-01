@@ -1,23 +1,23 @@
-package curso;
+package curso.secao3;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class uri1009 {
+public class uri1003 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        // String a = sc.next();
+        int a, b, soma;
+        
+        a = sc.nextInt();
 
-        double b = sc.nextDouble();
+        b = sc.nextInt();
 
-        double c = sc.nextDouble();
+        soma = a + b;
 
-        double d = b + c * 0.15;
-
-        System.out.printf("TOTAL = R$ %.2f%n", d);
+        System.out.println("SOMA = " + soma);
 
         sc.close();
         

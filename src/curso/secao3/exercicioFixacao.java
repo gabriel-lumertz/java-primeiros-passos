@@ -1,4 +1,4 @@
-package curso;
+package curso.secao3;
 
 import java.util.Locale;
 

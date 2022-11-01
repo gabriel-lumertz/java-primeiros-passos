@@ -1,23 +1,21 @@
-package curso;
+package curso.secao3;
 
 import java.util.Scanner;
 
-public class uri1017 {
+public class uri1004 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // int a, b;
-
-        double a, b, c;
+        int a, b, prod;
         
         a = sc.nextInt();
 
         b = sc.nextInt();
 
-        c = (a * b) / 12;
+        prod = a * b;
 
-        System.out.printf("%.3f%n", c);
+        System.out.println("PROD = " + prod);
 
         sc.close();
         

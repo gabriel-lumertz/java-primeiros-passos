@@ -1,21 +1,19 @@
-package curso;
+package curso.secao3;
 
 import java.util.Scanner;
 
-public class uri1004 {
+public class uri1016 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int a, b, prod;
+        int a, b;
         
         a = sc.nextInt();
 
-        b = sc.nextInt();
+        b = a * 2;
 
-        prod = a * b;
-
-        System.out.println("PROD = " + prod);
+        System.out.println(b + " minutos");
 
         sc.close();
         

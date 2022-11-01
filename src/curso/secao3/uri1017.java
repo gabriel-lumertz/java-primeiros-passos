@@ -1,8 +1,8 @@
-package curso;
+package curso.secao3;
 
 import java.util.Scanner;
 
-public class uri1005 {
+public class uri1017 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,13 +11,13 @@ public class uri1005 {
 
         double a, b, c;
         
-        a = sc.nextDouble();
+        a = sc.nextInt();
 
-        b = sc.nextDouble();
+        b = sc.nextInt();
 
-        c = ((a * 3.5) + (b * 7.5)) / 11 ;
+        c = (a * b) / 12;
 
-        System.out.printf("MEDIA = %.5f%n", c);
+        System.out.printf("%.3f%n", c);
 
         sc.close();
         

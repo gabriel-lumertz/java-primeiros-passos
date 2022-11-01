@@ -1,28 +1,25 @@
-package curso;
+package curso.secao3;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class uri1008 {
+public class uri1014 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        int a, b;
+        int a;
 
-        double c, d;
+        double b, c;
         
         a = sc.nextInt();
 
-        b = sc.nextInt();
+        b = sc.nextDouble();
 
-        c = sc.nextDouble();
+        c = a / b;
 
-        d = b * c;
-
-        System.out.println("NUMBER = " + a);
-        System.out.printf("SALARY = U$ %.2f%n", d);
+        System.out.printf("%.3f km/l%n", c);
 
         sc.close();
         
