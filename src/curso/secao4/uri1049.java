@@ -4,38 +4,51 @@ import java.util.Scanner;
 
 public class uri1049 {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-    String a = sc.nextLine();
-    String b = sc.nextLine();
-    String c = sc.nextLine();
-
-    if (a == "vertebrado" && b == "ave" && c == "carnivoro") {
-
-        System.out.println("aguia");
-
-    } else if (a == "vertebrado" && b == "ave" && c == "onivoro") {
-
-        System.out.println("pomba");
-
-    } else if (a == "vertebrado" && b == "mamifero" && c == "onivoro") {
-
-        System.out.println("homem");
-
-    } else if (a == "vertebrado" && b == "mamifero" && c == "herbivoro") {
-
-        System.out.println("vaca");
-
-    } else if (a == "invertebrado" && b == "inseto" && c == "hematofago") {
-
-        System.out.println("pomba");
-
-    }
-    
-    System.out.println("O JOGO DUROU " + duracaoHoras + " HORA(S) E " + duracaoMinutos + " MINUTO(S)");
-    
-    sc.close();
-}
+		String a = sc.nextLine();
+		String b = sc.nextLine();
+		String c = sc.nextLine();
+		
+		if (a.equals("vertebrado")) {
+			if (b.equals("ave")) {
+				if (c.equals("carnivoro")) {
+					System.out.println("aguia");
+				}
+				else {
+					System.out.println("pomba");
+				}
+			}
+			else {
+				if (c.equals("onivoro")) {
+					System.out.println("homem");
+				}
+				else {
+					System.out.println("vaca");
+				}
+			}
+		}
+		else {
+			if (b.equals("inseto")) {
+				if (c.equals("hematofago")) {
+					System.out.println("pulga");
+				}
+				else {
+					System.out.println("lagarta");
+				}
+			}
+			else {
+				if (c.equals("hematofago")) {
+					System.out.println("sanguessuga");
+				}
+				else {
+					System.out.println("minhoca");
+				}
+			}
+		}
+		
+		sc.close();
+	}
 }
